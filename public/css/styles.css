@@ -1,0 +1,160 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0e1120;
+    color: white;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1a1d2e;
+  }
+  
+  .header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1a1d2e;
+    margin-top: 2rem;
+  }
+  
+  /* Estilo para Dosesis */
+  .dosesis {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .dosesis h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .dosesis .subtitle {
+    font-size: 1.2rem;
+    color: #bdbdbd;
+  }
+  
+  .dosesis-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+  }
+  
+  .dosesis-gallery img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .dosesis-gallery img:hover {
+    transform: scale(1.1);
+  }
+  
+  .dosesis-info {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #bdbdbd;
+  }
+/* Estilo para Logística */
+.logistica {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .logistica h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .logistica .subtitle {
+    font-size: 1.2rem;
+    color: #bdbdbd;
+  }
+  
+  .logistica-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+  }
+  
+  .logistica-gallery img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .logistica-gallery img:hover {
+    transform: scale(1.1);
+  }
+  
+  .logistica-info {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #bdbdbd;
+  }
+
+/* Estilo para FloydRide */
+.floydride {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .floydride h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .floydride .subtitle {
+    font-size: 1.2rem;
+    color: #bdbdbd;
+  }
+  
+  .floydride-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+  }
+  
+  .floydride-gallery img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .floydride-gallery img:hover {
+    transform: scale(1.1);
+  }
+  
+  .floydride-info {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #bdbdbd;
+  }
+  
